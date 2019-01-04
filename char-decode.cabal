@@ -5,7 +5,7 @@ description:    Please see the README on GitHub at <https://github.com/nbloomf/c
 homepage:       https://github.com/nbloomf/char-decode#readme
 bug-reports:    https://github.com/nbloomf/char-decode/issues
 author:         Nathan Bloomfield
-maintainer:     nbloomf@automattic.com
+maintainer:     nathan.bloomfield@automattic.com
 copyright:      2019 Automattic, Inc.
 license:        BSD3
 license-file:   LICENSE
