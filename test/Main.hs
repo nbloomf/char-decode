@@ -13,6 +13,7 @@ main =
     localOption (QC.QuickCheckTests 10000) $
       testGroup "Encodings"
         [ testEncoding CodePage437
+        , testEncoding CodePage437Graphic
         ]
 
 testEncoding

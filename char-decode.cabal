@@ -1,7 +1,11 @@
 cabal-version:  1.12
 name:           char-decode
 version:        0.0.1
-description:    Please see the README on GitHub at <https://github.com/nbloomf/char-decode#readme>
+category:       Text
+synopsis:       Convert legacy byte encodings to and from Unicode
+description:    Provides simple functions @Word8 -> Char@ and
+                @Char -> Either Char Word8@ for converting from
+                legacy character encodings to Unicode and back.
 homepage:       https://github.com/nbloomf/char-decode#readme
 bug-reports:    https://github.com/nbloomf/char-decode/issues
 author:         Nathan Bloomfield
@@ -28,7 +32,8 @@ library
     , text >= 1.2.3.1
   exposed-modules:
       Data.Char.Decode
-    , Data.Char.Decode.Class
+  other-modules:
+      Data.Char.Decode.Class
     , Data.Char.Decode.CodePage437
     , Data.Char.Decode.CodePage437.Graphic
 
