@@ -24,7 +24,7 @@ class ByteEncoding enc where
   -- | Mapping from bytes to chars.
   decodeByte :: enc -> Word8 -> Char
 
-  -- | Mapping from chars to bytes. If the character has no analog in the encoding, returns @Left c@.
+  -- | Mapping from chars to bytes. If the character @c@ has no analog in the encoding, returns @Left c@.
   encodeByte :: enc -> Char -> Either Char Word8
 
 -- | If the character has no analog in the encoding, returns the default byte.

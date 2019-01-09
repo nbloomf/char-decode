@@ -1,7 +1,8 @@
 Changelog for char-decode
 =========================
 
-Unreleased changes
-------------------
+0.0.1
+-----
 
-* Initial release
+* Added
+    * `CodePage437` and `CodePage437Graphic` 

@@ -7,7 +7,7 @@ import Data.Word (Word8)
 
 import Data.Char.Decode.Class
 
--- | Data from https://en.wikipedia.org/wiki/Code_page_437
+-- | Data from ftp://www.unicode.org/Public/MAPPINGS/VENDORS/MISC/IBMGRAPH.TXT
 data CodePage437Graphic
   = CodePage437Graphic
   deriving (Eq, Show, Typeable)
